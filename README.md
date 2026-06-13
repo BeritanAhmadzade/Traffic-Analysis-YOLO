@@ -9,19 +9,14 @@ The main goal is to analyze vehicle distribution around pedestrian crosswalks.
 
 ---
 
-## Tasks
+## Objectives
 
-### 1. Total Vehicle Count
+The project solves the following tasks:
 
-Count the total number of detected vehicles in the image.
-
-### 2. Top Crosswalk ROI
-
-Count vehicles located behind the top pedestrian crosswalk.
-
-### 3. ROI-Based Vehicle Counting
-
-Count vehicles inside each predefined ROI:
+* Count the total number of vehicles in the image.
+* Count vehicles behind the top crosswalk (single ROI).
+* Count vehicles behind all crosswalks using multiple ROI regions.
+### Count vehicles inside each predefined ROI:
 
 * Top ROI
 * Bottom ROI
@@ -89,21 +84,21 @@ A vehicle is counted inside an ROI if the center point of its bounding box lies 
 
 YOLO-World object detection output.
 
-![Detection Result](results/Screenshot 2026-06-13 104546.png)
+![Detection Result](results/results.png)
 
 ---
 
 ## Example Output
 
 ```text
-total_cars : XX
+total_cars : 23
 
-top_roi : XX
+top_roi : 7
 
-top_roi : XX
-bottom_roi : XX
-left_roi : XX
-right_roi : XX
+top_roi : 7
+bottom_roi : 3
+left_roi : 5
+right_roi : 3
 ```
 
 ---
