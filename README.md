@@ -13,10 +13,10 @@ The main goal is to analyze vehicle distribution around pedestrian crosswalks.
 
 The project solves the following tasks:
 
-Count the total number of vehicles in the image.
-Count vehicles behind the north crosswalk (single ROI).
-Count vehicles behind all crosswalks using multiple ROI regions.
-Count vehicles inside each predefined ROI:
+* Count the total number of vehicles in the image.
+* Count vehicles behind the north crosswalk (single ROI).
+* Count vehicles behind all crosswalks using multiple ROI regions.
+* Count vehicles inside each predefined ROI:
 
 * Top ROI
 * Bottom ROI
