@@ -9,7 +9,7 @@ The main goal is to analyze vehicle distribution around pedestrian crosswalks.
 
 ---
 
-##Objectives
+## Objectives
 
 The project solves the following tasks:
 
