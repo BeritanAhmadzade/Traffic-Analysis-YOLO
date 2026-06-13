@@ -89,7 +89,7 @@ A vehicle is counted inside an ROI if the center point of its bounding box lies 
 
 YOLO-World object detection output.
 
-![Detection Result](results/Screenshot 2026-06-13 104546.png)
+![Detection Result](results/results.png)
 
 ---
 
