@@ -113,9 +113,8 @@ Traffic-Analysis-YOLO/
 ├── README.md
 │
 └── results/
-    ├── input_image.jpg
-    ├── detection_result.jpg
-    └── roi_visualization.jpg
+    ├──IMG_20260608_233848_316.jpg
+    ├── result.jpg
 ```
 
 
