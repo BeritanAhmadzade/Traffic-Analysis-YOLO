@@ -91,14 +91,14 @@ YOLO-World object detection output.
 ## Example Output
 
 ```text
-total_cars : XX
+total_cars : 23
 
-top_roi : XX
+top_roi : 7
 
-top_roi : XX
-bottom_roi : XX
-left_roi : XX
-right_roi : XX
+top_roi : 7
+bottom_roi : 3
+left_roi : 5
+right_roi : 3
 ```
 
 ---
