@@ -10,27 +10,15 @@ img = cv2.imread("IMG_20260608_233848_316.jpg")
 plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 plt.axis("off")
 
-
-
-
 model = YOLO("yolov8x-world.pt")
 
-
-
-
 print(img.shape)
-
-
-# In[16]:
 
 
 results = model("IMG_20260608_233848_316.jpg",
                 imgsz = 1280,
                 conf = 0.1,
                 verbose = True)
-
-
-# In[30]:
 
 
 annotated = results[0].plot()
@@ -40,13 +28,9 @@ plt.axis("off")
 plt.show()
 
 
-
-
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.grid()
 plt.show()
-
-
 
 
 ROI ={
@@ -55,8 +39,6 @@ ROI ={
     "right_roi":Polygon([(870,430), (1200,430),   (1200,700),    (870,700)]),
     "left_roi":Polygon([(0,430),   (330,430), (330,900),  (0,900)])
 }
-
-
 
 
 #vehicle_centers
@@ -83,23 +65,15 @@ def count_cars(get_vehicles_center,roi):
 
     return count   
 
-
-
-
 #count all vehicles 
 vehicles_center = get_vehicles_center(results)
 
 print("total_cars :", len(vehicles_center))
 
 
-
-
-
 #count cars in top ROI
 top_count=count_cars(vehicles_center,ROI["top_roi"])
 print("top_roi :",top_count)
-
-
 
 
 # Count cars in each ROI
