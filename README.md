@@ -108,8 +108,7 @@ right_roi : 3
 ```text
 Traffic-Analysis-YOLO/
 │
-├── yolo_f.ipynb
-├── input.jpg
+├── yolo_f.py
 ├── README.md
 │
 └── results/
