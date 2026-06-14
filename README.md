@@ -109,7 +109,7 @@ right_roi : 3
 Traffic-Analysis-YOLO/
 │
 ├── yolo_f.ipynb
-├── IMG_20260608_233848_316.jpg
+├── input.jpg
 ├── README.md
 │
 └── results/
