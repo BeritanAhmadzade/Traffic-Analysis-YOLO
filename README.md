@@ -102,7 +102,7 @@ Traffic-Analysis-YOLO/
 
 ## Input Image
 
-![Input Image](results/IMG_20260608_233848_316.jpg)
+![Input Image](IMG_20260608_233848_316.jpg)
 
 ---
 
